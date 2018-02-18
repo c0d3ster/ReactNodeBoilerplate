@@ -9,7 +9,7 @@
     "start": "npm run build && npm run start-server"
   },
   "author": "Cody Douglass",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.2",
     "react": "^16.2.0",
