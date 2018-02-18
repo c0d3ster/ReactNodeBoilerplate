@@ -28,4 +28,5 @@ HTTPS support (Free using certbot)
 If anyone has any questions about the repository or finds any poor design patterns/practices, please don't hesitate to reach out to my or post an issue on the page.  I'm always open to feedback and a smart developer will always be flexible in their technical progression, especially in the ever-changing world of web development.
 
 Happy Coding,
+
 Cody
