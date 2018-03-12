@@ -25,6 +25,8 @@
     "file-loader": "^1.1.6",
     "nodemon": "^1.15.0",
     "npm-run-all": "^4.1.2",
+    "postcss-loader": "^2.1.0",
+    "react-router-scroll-4": "^1.0.0-beta.1",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0"
   }

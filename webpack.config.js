@@ -16,10 +16,28 @@ var config = {
     publicPath: '/'
   },
   module: {
-    loaders: [
-      { test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/, query: {presets: ['react', 'env']} },
-      { test: /\.css$/, loader: "style-loader!css-loader" },
-      { test: /\.(png|jpg)$/, loader: 'file-loader?name=public/[name].[ext]'}
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        use: {loader: 'babel-loader', options: { presets: ['react', 'env'] }},
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {loader: 'css-loader', options: { importLoaders : 1 } },
+          'postcss-loader'
+        ]
+      },
+      {
+        test: /\.json$/,
+        use: 'json-loader'
+      },
+      {
+        test: /\.(png|jpg)$/,
+        use: 'file-loader?name=public/[name].[ext]'
+      }
     ]
   }
 };
