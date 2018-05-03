@@ -5,7 +5,7 @@ React
 
 React Router v4
 
-Webpack (w/ babel-loader, css-loader, style-loader, file-loader)
+Webpack v4 (w/ babel-loader, css-loader, style-loader, file-loader)
 
 Babel (env and react presets)
 
